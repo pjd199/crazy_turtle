@@ -1,5 +1,12 @@
 #  The Crazy Turtle Card Game Solver
 
+[![python versions](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://www.python.org/)
+![os platforms](https://img.shields.io/badge/platform-linux%20%7C%20windows%20%7C%20macos-blue)
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/pjd199/crazy_turtle/Test)
+
+[![GitHub](https://img.shields.io/github/license/pjd199/advent_of_code_python?color=black)](./license.md) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## Overview
 
 ![Crazy Turtle Card Game box](public/images/box.jpeg)
