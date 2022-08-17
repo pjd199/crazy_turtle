@@ -56,4 +56,4 @@ jobs:
       - name: Security check with bandit
         if: ${{ always() }}
         run: |
-          bandit .
+          bandit crazy_turtle.py
