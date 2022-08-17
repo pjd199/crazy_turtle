@@ -189,10 +189,10 @@ def main() -> None:  # pragma: no cover
 
     # find the solutions, using multiprocessing if possible
     start_time = perf_counter_ns()
-    if processors := cpu_count():
-        solutions = find_solutions(default_deck, processors=processors)
-    else:
-        solutions = find_solutions(default_deck)
+    processors = cpu_count()
+    if processors is None:
+        processors = 1
+    solutions = find_solutions(default_deck, processors=processors)
     solutions = filter_duplictates(solutions)
     end_time = perf_counter_ns()
 
