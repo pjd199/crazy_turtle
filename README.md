@@ -72,6 +72,7 @@ body part - Head, Tail
 
 From the command line, run
 ```
+pip install pytest
 pytest test_crazy_turtle.py
 ```
 
